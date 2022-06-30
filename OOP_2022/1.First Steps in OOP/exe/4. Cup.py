@@ -9,7 +9,7 @@ class Cup:
 
 
     def fill(self, quantity):
-        if cup.status() >= quantity:
+        if cup.status() > quantity:
             self.quantity += quantity
             return self.quantity
 
